@@ -245,7 +245,7 @@ svg.selectAll("rect")
 ```
 ![fig-10.PNG](fig-10.PNG)
 
-Let's go ahead and make one more change to really make the highest values stand out. We are going to apply a highlight to the top 10% of possible values, which means that our custom range is returning a value less than or equal to 25.5. For these values, we want to put a conditional statement in that is giving a full, bright red fill.
+Let's go ahead and make one more change to really make the highest values stand out. We are going to apply a highlight to the top 10% of possible values of the color range, which means that our custom range is returning a value less than or equal to 25.5. Note that this is NOT the same thing as highlight the top 10% of data values. For these values, we want to put a conditional statement in that is giving a full, bright red fill.
 
 ```diff
 .attr("fill", function(d){
