@@ -356,7 +356,7 @@ For full credit on this assignment, you will need to complete all of the TODOs l
 
 ![fig-14.png](figures/fig-14.png)
 
-An example of how the labels should be laid out in the vertical bar chart.
+An example of how the labels should be laid out in the horizontal bar chart.
 
 ### Acknowledgements:
 
